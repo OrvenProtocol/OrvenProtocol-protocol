@@ -1,0 +1,69 @@
+{
+  "records": {
+    "chain": {
+      "label": "Chain",
+      "state": "stated",
+      "value": "Elysium",
+      "rpc": "https://rpc.elysium.kinetiq.xyz",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31",
+      "chainId": "0x1863d",
+      "network": "elysium"
+    },
+    "domain": {
+      "label": "Domain",
+      "state": "stated",
+      "value": "orven.world",
+      "url": "https://orven.world",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31"
+    },
+    "market": {
+      "label": "Market source (GeckoTerminal Elysium)",
+      "state": "stated",
+      "provider": "gecko",
+      "networkSlug": "elysium",
+      "feedUrl": "https://api.geckoterminal.com/api/v2/networks/elysium/trending_pools",
+      "tokenUrl": "https://api.geckoterminal.com/api/v2/networks/elysium/tokens/{address}",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31"
+    },
+    "ca": {
+      "label": "Contract address",
+      "kind": "address",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31"
+    },
+    "vault": {
+      "label": "Payout vault",
+      "kind": "address",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31"
+    },
+    "x": {
+      "label": "X",
+      "kind": "url",
+      "state": "stated",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31",
+      "url": "https://x.com/Orven_World"
+    },
+    "github": {
+      "label": "GitHub",
+      "kind": "url",
+      "state": "stated",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedAt": "2026-10-31",
+      "url": "https://github.com/OrvenWorld/orvenworld-protocol"
+    }
+  }
+}
